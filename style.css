@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+
+}
+
+
+body{
+    background-image: url("cute-pizza-slice-seamless-pattern_324746-389.jpg");
+}
+
+#main{
+
+    margin: 0 auto;
+    vertical-align: center;
+    width: 50%;
+    border:solid darkorange;
+    background: transparent;
+}
+
+table{
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+
+    background-color: darkorange;
+    color: yellow;
+}
+
+table tr:nth-child(odd) {
+    background-color: orange;
+}
+
+table tr:hover {
+    color: darkred;
+}
+
+th, td { padding: 5px; }
+
+
+nav{
+    position: fixed;
+}
+
+nav ul{
+    display: block;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 40px;
+
+
+}
